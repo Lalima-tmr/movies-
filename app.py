@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
-client = MongoClient('mongodb+srv://test:laLima015@atlascluster.0qlz3uc.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster')
+client = MongoClient('Your mongoDB Atlas URL here')
 db = client.sparta
 
 app = Flask(__name__)
